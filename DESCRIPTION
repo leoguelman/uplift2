@@ -1,0 +1,34 @@
+Package: uplift2
+Title: Uplift Modeling
+Version: 0.0.1
+Authors@R: person("Leo", "Guelman", email = "leo.guelman@gmail.com", role = c("aut", "cre"))
+Maintainer: Leo Guelman <leo.guelman@gmail.com>
+Description: An integrated package for building and testing uplift models.
+Depends:
+    R (>= 3.2.0),
+    ggplot2 (>= 2.0.0),
+    grid
+Imports:
+    brglm (>= 0.5-9),
+    car (>= 2.1-1),
+    coin(>= 1.1-2),
+    data.table (>= 1.9.6),
+    doParallel (>= 1.0.10),
+    dplyr (>= 0.7.4),
+    foreach (>= 1.4.3),
+    glmnet (>= 2.0-3),
+    gridExtra (>= 2.0.0),
+    iterators (>= 1.0.8),
+    lazyeval (>= 0.1.10),
+    magrittr (>= 1.5),
+    MASS (>= 7.3-45),
+    partykit (>= 1.0-5),
+    plyr (>= 1.8.3),
+    reshape2 (>= 1.4.1),
+    RItools (>= 0.1-13),
+    scales (>= 0.3.0),
+    survival (>= 2.38-3),
+    tables (>= 0.7.79)
+License: GPL-2 | GPL-3
+LazyData: true
+RoxygenNote: 6.0.1
